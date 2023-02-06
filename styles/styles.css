@@ -18,7 +18,7 @@ header {
     align-items: center;
 }
 
-.container button {
+.container_button {
     width: 140px;
     height: 48px;
     border-radius: 28px;
@@ -31,7 +31,7 @@ header {
     transition: 0.5s;
 }
 
-.container button:hover {
+.container_button:hover {
     cursor: pointer;
     background: #666CA3;
     transition: 0.5s;
@@ -52,7 +52,7 @@ main {
     flex-direction: column;
 }
 
-.intro h1 {
+.intro_heading {
     font-weight: 800;
     font-size: 40px;
     line-height: 50px;
@@ -60,7 +60,7 @@ main {
     width: 12ch;
 }
 
-.intro p {
+.intro_paragraph {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -69,7 +69,7 @@ main {
     margin-top: 26px;
 }
 
-.intro button {
+.intro_button {
     width: 167px;
     height: 56px;
     border-radius: 31.5px;
@@ -83,7 +83,7 @@ main {
     transition: 0.5s;
 }
 
-.intro button:hover {
+.intro_button:hover {
     cursor: pointer;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     transition: 0.5s;
@@ -134,7 +134,7 @@ main {
     margin-top: -26px;
 }
 
-.info h3 {
+.info_title {
     font-weight: 800;
     font-size: 20px;
     line-height: 25px;
@@ -143,7 +143,7 @@ main {
     margin-top: 24px;
 }
 
-.info p {
+.info_paragraph {
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
@@ -152,7 +152,7 @@ main {
     margin-top: 16px;
 }
 
-.info h4 {
+.info_start {
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
@@ -162,7 +162,7 @@ main {
     transition: 0.5s;
 }
 
-.info h4:hover {
+.info_start:hover {
     cursor: pointer;
     transition: 0.5s;
     color: #FFA7C3;
@@ -175,7 +175,7 @@ footer {
     width: 100%;
     background: #13183F;
     margin-top: 80px;
-    padding: 32px 0;
+    padding: 36px 0;
 }
 
 .footerContainer {
@@ -186,7 +186,7 @@ footer {
     align-items: center;
 }
 
-.footerContainer button{
+.footer_button{
     width: 140px;
     height: 48px;
     border-radius: 28px;
@@ -199,7 +199,7 @@ footer {
     transition: 0.5s;
 }
 
-.footerContainer button:hover {
+.footer_button:hover {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     cursor: pointer;
     transition: 0.5s;
@@ -226,11 +226,11 @@ footer {
         flex-direction: row;
     }
 
-    .intro h1 {
+    .intro_heading {
         margin-top: 100px;
     }
 
-    .intro p {
+    .intro_paragraph {
         width: 35ch;
     }
 
@@ -284,18 +284,18 @@ footer {
         margin-left: 12%;
     }
     
-    .intro h1 {
+    .intro_heading {
         font-size: 56px;
         line-height: 71px;
     }
 
-    .intro p {
+    .intro_paragraph {
         font-size: 18px;
         line-height: 28px;
         margin-top: 29px;
     }
 
-    .intro button {
+    .intro_button {
         margin-top: 40px;
     }
 
@@ -311,21 +311,21 @@ footer {
         line-height: 30px;
     }
 
-    .info p {
+    .info_paragraph {
         font-weight: 500;
         font-size: 18px;
         line-height: 28px;
         width: 24ch;
     }
 
-    .info h4 {
+    .info_start {
         font-weight: 700;
         font-size: 18px;
         line-height: 28px;
     }
 
     .final_margin {
-        margin-top: 52px;
+        margin-top: -30px;
     }
 
     .courses {
@@ -337,11 +337,15 @@ footer {
         transition: 2s;
     }
 
+    footer {
+        padding: 32px 0px;
+    }
+
     .footerContainer {
         width: 70%;
     }
 
-    .footerContainer button {
+    .footer_button {
         width: 167px;
         height: 56px;
         font-weight: 700;
