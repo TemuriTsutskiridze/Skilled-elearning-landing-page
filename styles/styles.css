@@ -101,12 +101,14 @@ main {
 /* -----------------------  COURSES ------------------ */
 
 .courses {
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: 343px;
     row-gap: 40px;
     margin: auto;
     justify-content: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    padding-bottom: 80px;
 }
 
 .starterSection {
@@ -123,6 +125,7 @@ main {
     background: white;
     box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
     border-radius: 10px;
+    transition: 1.5s;
 }
 
 .info {
@@ -174,7 +177,6 @@ main {
 footer {
     width: 100%;
     background: #13183F;
-    margin-top: 80px;
     padding: 36px 0;
 }
 
@@ -249,6 +251,10 @@ footer {
     .starterSection {
         padding: 56px 21px 139px 32px;
     }
+
+    .courses {
+        padding-top: 86px;
+    }
     
 }
 
@@ -305,7 +311,7 @@ footer {
         line-height: 40px;
     }
 
-    .infor h3 {
+    .info h3 {
         font-weight: 800;
         font-size: 24px;
         line-height: 30px;
@@ -324,17 +330,18 @@ footer {
         line-height: 28px;
     }
 
-    .final_margin {
-        margin-top: -30px;
+    .last_margin {
+        margin-top: 52px;
     }
 
     .courses {
-        width: 78%;
         margin-top: 250px;
         grid-template-columns: repeat(3, 350px);
+        grid-template-rows: repeat(2, 322px);
         row-gap: 80px;
         column-gap: 30px;
         transition: 2s;
+        padding-bottom: 140px;
     }
 
     footer {
@@ -381,7 +388,6 @@ footer {
     }
 
     .courses {
-        width: 60%;
         margin-top: 250px;
         grid-template-columns: repeat(3, 1fr);
     }
