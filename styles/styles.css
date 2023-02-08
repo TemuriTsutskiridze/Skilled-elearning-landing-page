@@ -221,7 +221,7 @@ footer {
         background-image: url(../assets/images/image-hero-tablet@2x.png);
         background-repeat: no-repeat;
         background-size: 640px 640px;
-        background-position: 51vw -3vw;
+        background-position: top 0px right -280px;
     }
 
     header {
@@ -262,19 +262,7 @@ footer {
     
 }
 
-@media (min-width: 960px) {
 
-    body {
-        background-position: 60vw -3vw;
-    }
-}
-
-@media (min-width: 1180px) {
-
-    body {
-        background-position: 68vw -3vw;
-    }
-}
 
 
 @media (min-width: 1440px) {    
@@ -282,7 +270,7 @@ footer {
     body {
         background-image: url(../assets/images/image-hero-desktop@2x.png);
         background-size: 991px 936px;
-        background-position: 52vw -12vw;
+        background-position: top 30px right -50px;
     }
     
     .container {
@@ -365,21 +353,12 @@ footer {
     }
 }
 
-
-@media (min-width: 1640px) {    
-
-    body {
-        background-position: 58vw -12vw;
-        transition: 1s;
-    }
-}
-
 @media (min-width: 1920px) {    
 
     body {
         background-image: url(../assets/images/image-hero-desktop@2x.png);
         background-size: 1100px 1000px;
-        background-position: 58vw -10vw;
+        background-position: top 30px right -50px;
     }
     
     .container {
@@ -401,12 +380,6 @@ footer {
     }
 }
 
-@media (min-width: 2500px) {    
-
-    body {
-        background-position: 66vw -8vw;
-    }
-}
 
 
 
