@@ -220,8 +220,8 @@ footer {
     body {
         background-image: url(../assets/images/image-hero-tablet@2x.png);
         background-repeat: no-repeat;
-        background-size: 640px 640px;
-        background-position: top 0px right -280px;
+        background-size: 750px 750px;
+        background-position: top -80px right -340px;
     }
 
     header {
@@ -270,7 +270,7 @@ footer {
     body {
         background-image: url(../assets/images/image-hero-desktop@2x.png);
         background-size: 991px 936px;
-        background-position: top 30px right -50px;
+        background-position: top -170px right -350px;
     }
     
     .container {
